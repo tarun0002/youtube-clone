@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---- NAV BAR----*/
+.header{
+    display: flex;
+   align-items: center;
+}
+nav{
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 2%;
+    background: #fff;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+.right img{
+    width: 25px;
+    margin-right: 10px;
+}
+nav .user-logo{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.left .menu{
+    width: 22px;
+    margin-left: 10px;
+}
+.left .logo{
+    width: 100px;
+    margin-left: 20px;
+}
+.middle .mic-icon{
+    width: 16px;
+}
+.middle .search-box {
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.middle .search-box input{
+     width: 400px;
+     border: 0;
+     outline: 0;
+     background: transparent;
+}
+.middle .search-box img{
+    width: 15px;
+}
+
+/*----------SIDE BAR------*/
+.side-bar{
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    padding-left: 2%;
+    padding-top: 80px;
+}
+.side-bar .shorcut-links img{
+    width: 20px;
+    margin-right: 10px;
+}
+ .side-bar .shortcut-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: gray;
+    gap: 20px;
+}
+
+/*--------Banner----------*/
+.container{
+    background: #fff;
+    padding-left: 15%;
+    margin-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+/*------Main content-------*/
+.list-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.vid-list .thumbnail{
+    width: 100%;
+    border-radius: 5%;
+}
+.vid-list .header{
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.header img{
+    width: 30px;
+    margin-right: 20px;
+    border-radius: 50%;
+
+}
